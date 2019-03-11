@@ -1,0 +1,7 @@
+Running: xsim.dir/SegDisp_tb_behav/xsimk.exe -simmode gui -wdb SegDisp_tb_behav.wdb -simrunnum 0 -socket 55931
+Design successfully loaded
+Design Loading Memory Usage: 9164 KB (Peak: 9164 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 9788 KB (Peak: 9788 KB)
+Simulation CPU Usage: 93 ms

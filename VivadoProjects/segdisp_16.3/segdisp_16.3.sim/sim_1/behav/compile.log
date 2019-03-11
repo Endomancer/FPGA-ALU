@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Labs/segdisp_16.3/segdisp_16.3.srcs/sources_1/imports/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Labs/segdisp_16.3/segdisp_16.3.srcs/sources_1/imports/SegmentDisplay.srcs/sim_1/new/SegDisp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SegDisp_tb
