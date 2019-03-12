@@ -1,0 +1,1 @@
+-wto "c5a45c5c43d1447cba1c5450f122e362" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "NBitOr_tb_behav" "xil_defaultlib.NBitOr_tb" -log "elaborate.log" 

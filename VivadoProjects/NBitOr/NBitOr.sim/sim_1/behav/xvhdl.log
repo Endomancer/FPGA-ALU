@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sources_1/new/NBitOr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NBitOr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NBitOr_tb

@@ -1,0 +1,4 @@
+Running: xsim.dir/NBitOr_tb_behav/xsimk.exe -simmode gui -wdb NBitOr_tb_behav.wdb -simrunnum 0 -socket 56963
+Design successfully loaded
+Design Loading Memory Usage: 8420 KB (Peak: 8420 KB)
+Design Loading CPU Usage: 30 ms
