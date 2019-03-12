@@ -38,17 +38,21 @@ entity TwosCompliment is
 --  Port ( );
     generic(n:  integer := 8);
     Port(En:    in std_logic;
+         clk:    in std_logic;
          Val:   in std_logic_vector(n-1 downto 0);
          Res:   out std_logic_vector(n-1 downto 0));
 end TwosCompliment;
 
 architecture Behavioral of TwosCompliment is
-
+--signal temp: std_logic_vector(n-1 downto 0);
 begin
-    process begin
-        if En = '1' then
-            Res <= std_logic_vector(unsigned((Not Val) + "00000001")); 
-        else
+    process (En, clk) 
+    begin 
+        --if En = '1' then
+        --temp <= not val;
+        if (rising_edge(clk) and En = '1' ) then
+            Res <= std_logic_vector((not Val) + "00000001"); 
+        elsif (rising_edge(clk)) then
             Res <= Val;
         end if;
     end process;
