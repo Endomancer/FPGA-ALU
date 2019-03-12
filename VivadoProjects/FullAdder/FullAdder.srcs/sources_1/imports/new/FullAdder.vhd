@@ -35,6 +35,8 @@ entity FullAdder is
     Port ( BIn:     in STD_LOGIC;
            BIn2:    in STD_LOGIC;
            cin:     in STD_LOGIC;
+           clk:     in STD_LOGIC;
+           En:      in STD_LOGIC;
            COUT:    out STD_LOGIC;
            BOut:    out STD_LOGIC);
 end FullAdder;
@@ -42,8 +44,13 @@ end FullAdder;
 architecture Behavioral of FullAdder is
 signal Badd: std_logic;
 begin
-Badd <= BIn XOR BIn2; -- Sum function also note the curlys
-BOut <= Badd XOR cin;
-COUT <= (BIn AND BIn2) or (BIn and cin) or (BIn2 and cin); -- Carry " " 
+    process(clk, En)
+        begin
+        if (rising_edge(clk) and En = '1') then
+            Badd <= BIn XOR BIn2; -- Sum function also note the curlys
+            BOut <= Badd XOR cin;
+            COUT <= (BIn AND BIn2) or (BIn and cin) or (BIn2 and cin); -- Carry " " 
+        end if;
+    end process;
 
 end Behavioral;
