@@ -9,3 +9,7 @@
 # Log file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/vivado.log
 # Journal file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.xpr
+update_files -from_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/NBitOr_tb.vhd -to_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd -filesets [get_filesets *]
+update_compile_order -fileset sim_1

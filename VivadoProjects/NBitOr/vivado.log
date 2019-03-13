@@ -9,3 +9,18 @@
 # Log file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/vivado.log
 # Journal file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 739.973 ; gain = 104.977
+update_files -from_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/NBitOr_tb.vhd -to_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd' with file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/NBitOr_tb.vhd'.
+update_compile_order -fileset sim_1
