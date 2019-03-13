@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Mar 13 13:50:17 2019
+# Process ID: 16280
+# Current directory: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9952 C:\Users\endop\OneDrive\Documents\ENEL373Assignment\ENEL373-Group20\VivadoProjects\FullAdder\FullAdder.xpr
+# Log file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder/vivado.log
+# Journal file: C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder/FullAdder.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder'
+INFO: [Project 1-313] Project file moved from 'C:/Users/endop/OneDrive/Documents/ENEL373Labs/FullAdder' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder/FullAdder.srcs/sim_1/new/FullAdder_tb.vhd'; using path 'C:/Users/endop/OneDrive/Documents/ENEL373Labs/FullAdder/FullAdder.srcs/sim_1/new/FullAdder_tb.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/FullAdder/FullAdder.cache/ip', nor could it be found using path 'C:/Users/endop/OneDrive/Documents/ENEL373Labs/FullAdder/FullAdder.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 726.992 ; gain = 90.199
+update_files -from_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/FullAdder_tb.vhd -to_files C:/Users/endop/OneDrive/Documents/ENEL373Labs/FullAdder/FullAdder.srcs/sim_1/new/FullAdder_tb.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/endop/OneDrive/Documents/ENEL373Labs/FullAdder/FullAdder.srcs/sim_1/new/FullAdder_tb.vhd' with file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/FullAdder_tb.vhd'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 13 13:51:42 2019...

@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../../ENEL373Assignment/ENEL373-Group20/VivadoProjects/TwosCompliment.vhd"
+vhdl xil_defaultlib  "../../../TwosCompliment.srcs/sim_1/new/TwosCompliment_tb.vhd"
+
+# Do not sort compile order
+nosort

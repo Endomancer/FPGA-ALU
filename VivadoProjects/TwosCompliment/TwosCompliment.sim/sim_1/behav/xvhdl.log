@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/TwosCompliment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwosCompliment
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endop/OneDrive/Documents/ENEL373Labs/TwosCompliment/TwosCompliment.srcs/sim_1/new/TwosCompliment_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwosCompliment_tb
