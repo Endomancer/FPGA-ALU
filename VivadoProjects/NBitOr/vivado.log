@@ -24,3 +24,5 @@ open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak 
 update_files -from_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/NBitOr_tb.vhd -to_files C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd -filesets [get_filesets *]
 INFO: [filemgmt 20-762] Replacing file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/VivadoProjects/NBitOr/NBitOr.srcs/sim_1/new/NBitOr_tb.vhd' with file 'C:/Users/endop/OneDrive/Documents/ENEL373Assignment/ENEL373-Group20/Simulations/NBitOr_tb.vhd'.
 update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 13 14:17:43 2019...
