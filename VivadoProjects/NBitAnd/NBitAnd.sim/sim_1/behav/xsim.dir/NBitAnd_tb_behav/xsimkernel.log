@@ -2,3 +2,6 @@ Running: xsim.dir/NBitAnd_tb_behav/xsimk.exe -simmode gui -wdb NBitAnd_tb_behav.
 Design successfully loaded
 Design Loading Memory Usage: 9152 KB (Peak: 9152 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 9872 KB (Peak: 9872 KB)
+Simulation CPU Usage: 31 ms
